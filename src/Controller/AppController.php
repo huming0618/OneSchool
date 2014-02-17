@@ -31,4 +31,31 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	public $components = array(
+	    'Auth' => array(
+			'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
+	        'loginAction' => array(
+	            'controller' => 'users',
+	            'action' => 'login'
+	        ),
+	        'authError' => 'Did you really think you are allowed to see that?',
+	        'passwordHasher' => array(
+                    'className' => 'Simple',
+                    'hashType' => 'sha256'
+            ),
+	        'authenticate' => array(
+				AuthComponent::ALL => array(
+					'userModel' => 'User',
+					'fields' => array('username' => 'login_id', 'password' => 'password')
+				 ),
+				'Basic',
+				'Form' => array(
+	                'passwordHasher' => array(
+	                    'className' => 'Simple',
+	                    'hashType' => 'sha256'
+	                )
+            	)
+			)
+	    )
+	);
 }

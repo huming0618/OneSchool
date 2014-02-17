@@ -29,11 +29,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
-
+		echo $this->Html->css(array('bootstrap.min.css','bootstrap-theme.min.css'));
+		echo $this->Html->script(array('jquery-2.0.3.min.js', 'jquery.validate.js'), array('block' => 'scriptBottom'));
 		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
+		//echo $this->fetch('css');
+		//echo $this->fetch('script');
+		
 	?>
 </head>
 <body>
@@ -56,5 +57,6 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		</div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
+	<?php echo $this->fetch('scriptBottom'); ?>
 </body>
 </html>
