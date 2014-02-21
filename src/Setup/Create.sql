@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`auth_role` (
   `user_id` INT NULL,
   `role` VARCHAR(10) NOT NULL,
   PRIMARY KEY (`id`))
-ENGINE = InnoDB
+ENGINE = InnoDB;
 
 CREATE UNIQUE INDEX `id_UNIQUE` ON `cunxiaoo_houtai`.`auth_role` (`id` ASC);
 
