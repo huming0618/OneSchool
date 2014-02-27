@@ -20,6 +20,7 @@
  */
 
 App::uses('Controller', 'Controller');
+App::uses('AuthComponent', 'Controller/Component');
 
 /**
  * Application Controller
@@ -32,10 +33,13 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	public $components = array(
+		'Session',
+		'Cookie',
 	    'Auth' => array(
-			'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
+	    	'autoRedirect' => false,
+			'loginRedirect' => array('controller' => 'home', 'action' => 'index'),
 	        'loginAction' => array(
-	            'controller' => 'users',
+	            'controller' => 'auths',
 	            'action' => 'login'
 	        ),
 	        'authError' => 'Did you really think you are allowed to see that?',
@@ -45,8 +49,8 @@ class AppController extends Controller {
             ),
 	        'authenticate' => array(
 				AuthComponent::ALL => array(
-					'userModel' => 'User',
-					'fields' => array('username' => 'login_id', 'password' => 'password')
+					'userModel' => 'Auth',
+					'fields' => array('username' => 'login_id', 'password' => 'pwd')
 				 ),
 				'Basic',
 				'Form' => array(

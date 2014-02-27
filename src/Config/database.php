@@ -60,7 +60,7 @@
  * For Sql Server : http://msdn.microsoft.com/en-us/library/ms190356.aspx
  */
 class DATABASE_CONFIG {
-
+/*
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
@@ -70,16 +70,23 @@ class DATABASE_CONFIG {
 		'database' => 'cunxiaoo_houtai',
 		'prefix' => '',
 		//'encoding' => 'utf8',
+	);*/
+	
+	public $default = array(
+	    'datasource' => 'Database/Mysql',
+	    'persistent' => false,
+	    'host'       => '127.0.0.1',
+	    'login'      => 'root',
+	    'password'   => '',
+	    'database'   => 'cunxiaoo_houtai'
 	);
-
+	
 	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+	    'datasource' => 'Database/Mysql',
+	    'persistent' => false,
+	    'host'       => 'localhost',
+	    'login'      => 'root',
+	    'password'   => '',
+	    'database'   => 'cunxiaoo_houtai'
 	);
 }

@@ -61,7 +61,9 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /lib/Cake/Console/Templates/skel/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH', '/home4/cunxiaoo/cakecore/lib');
+//define('CAKE_CORE_INCLUDE_PATH', '/home4/cunxiaoo/cakecore/lib');
+define('CAKE_CORE_INCLUDE_PATH', '/Users/peter/Desktop/workspace/OneSchool/cakecore/lib');
+
 
 /**
  * Editing below this line should NOT be necessary.

@@ -105,6 +105,7 @@
  * thus not recommended for production applications.
  */
 	//Configure::write('App.baseUrl', env('SCRIPT_NAME'));
+	//Configure::write('App.baseUrl', '/');
 
 /**
  * To configure CakePHP to use a particular domain URL
@@ -113,26 +114,28 @@
  * will override the automatic detection of full base URL and can be
  * useful when generating links from the CLI (e.g. sending emails)
  */
-	Configure::write('App.fullBaseUrl', 'http://cunxiao.org/houtaiapp');
-
+	//Configure::write('App.fullBaseUrl', 'http://cunxiao.org/houtaiapp');
+	Configure::write('App.fullBaseUrl', 'http://local.oneschool:8080');
 /**
  * Web path to the public images directory under webroot.
  * If not set defaults to 'img/'
  */
-	Configure::write('App.imageBaseUrl', '/webroot/img/');
+	//Configure::write('App.imageBaseUrl', '/webroot/img/');
+	Configure::write('App.imageBaseUrl', 'img/');
 
 /**
  * Web path to the CSS files directory under webroot.
  * If not set defaults to 'css/'
  */
-	Configure::write('App.cssBaseUrl', '/webroot/css/');
+	//Configure::write('App.cssBaseUrl', '/webroot/css/');
+	Configure::write('App.cssBaseUrl', 'css/');
 
 /**
  * Web path to the js files directory under webroot.
  * If not set defaults to 'js/'
  */
-	Configure::write('App.jsBaseUrl', '/webroot/js/');
-
+	//Configure::write('App.jsBaseUrl', '/webroot/js/');
+	Configure::write('App.jsBaseUrl', 'js/');
 /**
  * Uncomment the define below to use CakePHP prefix routes.
  *
@@ -222,12 +225,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'aYhG93c0qyJfIxfs2guBoUubWwvniV2G0FgaC9mi');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '12349309657453542496799923345');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -267,7 +270,7 @@
  * Uncomment this line and correct your server timezone to fix
  * any date & time related errors.
  */
-	//date_default_timezone_set('UTC');
+	date_default_timezone_set('UTC');
 
 /**
  * `Config.timezone` is available in which you can set users' timezone string.

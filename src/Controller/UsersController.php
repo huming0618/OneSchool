@@ -2,7 +2,7 @@
 
 App::uses('BaseController', 'Controller');
 
-class UserController extends BaseController {
+class UsersController extends BaseController {
 	
 	public function beforeFilter() {
         parent::beforeFilter();
@@ -14,6 +14,10 @@ class UserController extends BaseController {
         $this->set('users', $this->paginate());
     }
 
+	public function login(){
+		
+	}
+	
     public function view($id = null) {
         $this->User->id = $id;
         if (!$this->User->exists()) {

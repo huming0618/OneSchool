@@ -1,37 +1,113 @@
-.bs-glyphicons {
-  padding-left: 0;
-  padding-bottom: 1px;
-  margin-bottom: 20px;
-  list-style: none;
-  overflow: hidden;
+body {
+	padding-bottom: 20px;
+	padding-top: 5px;
+	font-family:"STHeiti","SimHei";
 }
 
-.bs-glyphicons li {
-  float: left;
-  width: 120px;
-  cursor:pointer;
-  height: 115px;
-  padding: 8px;
-  margin: 0 -1px -1px 0;
-  font-size: 12px;
-  line-height: 1.2;
-  text-align: center;
-  /*border: 1px solid #ddd;*/
+.background {
+    width:100%;
+    height:100%;
+    position:absolute;
+    left: 0; 
+    top: 0; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
 
-.bs-glyphicons li a{
-  display:block;
-  text-decoration: none;
+.stretch {
+    width:100%;
+    height:100%;
+}
+/*
+.jumbotron {
+	width: 390px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 1px solid #E5E5E5;
+	text-align: center;
+	padding:20px;
+	opacity:0.9;
+	filter:alpha(opacity=90); 
+}
+			
+.jumbotron .btn {
+	font-size: 18px;
+}*/
+
+.login-blk{
+	height:400px;
+	
+	width:87%;
+	margin:auto;
+	margin-top:100px;
+	position: relative;
+}
+
+.login-blk>div{
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+.login-form-panel{
+	
+}
+
+.left-img{
 
 }
 
-.bs-glyphicons .glyphicon {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 24px;
+.login-form{
+	width:95%;
+	margin:30px auto;
+	padding-bottom:5px;
 }
 
-.bs-glyphicons li:hover {
-  background-color: rgba(86,61,124,.1);
+.login-form input{
+	margin-bottom : 5px;
 }
 
+.login-form button.btn{
+	font-size:16px;
+}
+
+.left-img img{
+	width:auto;
+	height:100%;
+	margin:0px;
+}
+
+.login-form-panel img.logo{
+	margin-top:20px;
+}
+
+@media (min-width: 768px) {
+	.logo{
+		height:91px;
+		width:130px;
+	}
+}
+
+/* and (-webkit-min-device-pixel-ratio: 2) */
+@media only screen and (max-device-width : 640px) {
+	.logo {
+		height:91px;
+		width:130px;
+	}
+
+	.container {
+		max-width: 400px;
+		font-size : 13px;
+	}
+
+	.jumbotron {
+		max-width: 280px;
+	}
+
+	.jumbotron h3 {
+		font-size : 18px !important; 
+	}
+
+	.jumbotron button {
+		font-size : 16px !important; 
+	}
+}

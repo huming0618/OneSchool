@@ -1,16 +1,15 @@
 <?php
 
 App::uses('AppController', 'Controller');
-
 class BaseController extends AppController {
-	￼public function beforeFilter() {
-		parent::beforeFilter();
-		//authentication is required
-		if($this->Auth->user('id')){
-			
-		}
-		else{
-			$this->render('/login');
-		}
+	public function beforeFilter() {
+        parent::beforeFilter();
+		$this->Auth->allow();
+    }
+	
+	public function beforeRender() {
+		$this->layout = 'home_layout';
+    	$this->set('title_for_layout', "一村小 捐助管理");
 	}
 }
+?>
