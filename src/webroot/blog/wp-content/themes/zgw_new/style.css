@@ -1,0 +1,116 @@
+/*
+Theme Name: zgw
+Theme URI: 
+Description: zgw 
+Author: HU QI MING
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: 
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+
+@import url('bootstrap/css/bootstrap.min.css');*/
+
+@import url('slidershow/svw.css');
+body {
+  padding-top: 9px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+table.new-table{
+	font-size:12px;
+}
+
+ul.small-tabs{
+ font-size:12px;
+}
+
+ul.smalller-tabs{
+ font-size:10px;
+ width:100%;
+}
+
+
+ul.no-list-style{
+	list-style: none;
+}
+
+ul.news-list{
+	display: block;
+	padding-left:2px;
+	margin-left:2px;
+}
+
+div.height240{
+	min-height:240px;
+}
+
+div.height270{
+	min-height:278px;
+}
+
+div.height300{
+	min-height:300px;
+}
+
+div.height400{
+	min-height:400px;
+}
+
+ul.media-list{
+	margin-left:3px;
+	margin-top:9px;
+}
+
+ul.media-list li{
+	margin-top:5px;
+}
+
+
+ul.news-list li{
+	line-height:20px;
+	color:#005580;
+	font-size:13px;
+}
+
+.front_topic{
+	/*background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;*/
+	height:300px;
+	width:100%;
+	margin:0px;
+	z-index: 0;
+}
+
+.front_topic-bg{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	z-index: 0;
+	position: static;
+}
+
+.front_topic-bg img{
+	width:100%;
+	height:100%;
+}
+
+html{
+
+}
+
+body{
+	background:url('http://192.168.1.101:8080/blog/wp-content/uploads/2014/03/sina_lianghui2014_boby_bg.jpg') no-repeat 50% 0px;
+	margin-top:0px;
+	min-height:100%;
+}

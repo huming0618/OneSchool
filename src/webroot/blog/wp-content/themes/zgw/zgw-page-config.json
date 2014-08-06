@@ -1,0 +1,33 @@
+{
+	"themes":
+		{
+			"general-front-page":[
+					{
+						"display":"zgw",
+						"theme":"zgw-front-page.php",
+						"screenshot":"screenshot.png"
+					},
+					{
+						"display":"默认",
+						"theme":"front-page.php",
+						"screenshot":"screenshot.png"
+					},
+					
+					{
+						"display":"新模版",
+						"theme":"zgw-front-page-1.php",
+						"screenshot":"screenshot.png"
+					}
+			],
+			"page":[
+					{"display":"默认页面","theme":"zgw-page.php","screenshot":"screenshot.png"},
+					{"display":"目录页面","theme":"zgw-page-category.php","screenshot":"screenshot.png"},
+					{"display":"测试","theme":"zgw-page-new.php","screenshot":"screenshot.png"}
+			],
+			"channel-page":[
+					{"display":"默认页面","theme":"zgw-page.php","screenshot":"screenshot.png"},
+					{"display":"目录页面","theme":"zgw-page-category.php","screenshot":"screenshot.png"},
+					{"display":"测试","theme":"zgw-page-new.php","screenshot":"screenshot.png"}
+			]
+		}
+}

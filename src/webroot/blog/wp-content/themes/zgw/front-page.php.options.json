@@ -1,0 +1,72 @@
+{
+	"display":"首页",
+	
+	"options-tabs":{
+		"3":{
+			"display":"广告栏目"
+		},
+		"1":{
+						"display":"头条新闻",
+						"groups":{
+							"1":"模版",
+							"2":"标题文章"
+						}
+		},
+		"2":{"display":"焦点图"}
+	},
+	
+	"options":[
+				{
+					"name" : "adv-left",
+					"type"	: "image-link",
+					"display" : "左侧图片",
+					"tab" : "3",
+					"group" : "1"
+				},
+				{
+					"name" : "adv-middle",
+					"type"	: "image-link",
+					"display" : "中间图片",
+					"tab" : "3",
+					"group" : "1"
+				},
+				{
+					"name" : "adv-right",
+					"type"	: "image-link",
+					"display" : "右边图片",
+					"tab" : "3",
+					"group" : "1"
+				},
+				{
+					"name" : "title-theme",
+					"type"	: "theme",
+					"display" : "选择模版",
+					"tab" : "1",
+					"group" : "1"
+				},
+				{
+					"name" : "big-title",
+					"type"	: "link",
+					"display" : "大标题",
+					"tab" : "1",
+					"group" : "2"
+				},
+				{
+					"name" : "sub-title-1",
+					"type"	: "link",
+					"display" : "小标题",
+					"tab" : "1",
+					"group" : "2"
+				},
+				{
+					"name" : "sub-title-2",
+					"type"	: "link",
+					"display" : "小标题",
+					"tab" : "2",
+					"group" : "1"
+				}
+				
+				
+			
+	]
+}

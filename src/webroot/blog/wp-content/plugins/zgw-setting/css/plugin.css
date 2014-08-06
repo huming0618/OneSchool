@@ -1,0 +1,43 @@
+.width-60 {
+	min-width:68px;
+}
+
+label{
+	display: inline-block;
+	font-weight:normal;
+	font-size:12px;
+	line-height:17px;
+	padding:3px;
+}
+
+label.title{
+	color:#6987A2;
+	font-size:15px;
+	font-weight:bold;
+}
+
+div.break{
+	margin-top:3px;
+	margin-bottom:3px;
+	clear:both;
+	height:1px;
+}
+
+div.rows{
+	height:100%;
+	float:left;
+	min-width: 450px;
+}
+
+div.row{
+	padding:2px;
+	width:100%;
+	clear:both;
+	margin-left:1px;
+}
+
+div.sub-row{
+	clear:both;
+	margin-left:80px;
+	margin-top:2px;
+}

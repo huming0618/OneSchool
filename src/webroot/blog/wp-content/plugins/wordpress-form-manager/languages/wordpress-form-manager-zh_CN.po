@@ -1,0 +1,1599 @@
+# Copyright (C) 2012 Form Manager
+# This file is distributed under the same license as the Form Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Form Manager 1.6.36\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-form-manager\n"
+"POT-Creation-Date: 2012-06-04 14:32:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-12-18 14:48+0800\n"
+"Last-Translator: Phoenix <117663444@qq.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: zh-CN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ajax.php:42
+msgid ""
+"Error: the shortcode '%s' is already in use. (other changes were saved "
+"successfully)"
+msgstr "错误：'%s' 短代码正在使用，（其它更改保存成功）"
+
+#. translators: this error is given when saving the form, if there was a
+#. problem with the list of e-mails under 'E-Mail Notifications'.
+#: ajax.php:118
+msgid ""
+"Error: There was a problem with the notification e-mail list.  Other "
+"settings were updated."
+msgstr "错误：通知邮件列表有问题，其它设置已更新。"
+
+#. translators: This error occurs if the save script failed for some reason.
+#: ajax.php:139
+msgid "Error: Save posted an invalid array expression."
+msgstr ""
+
+#: api.php:130 display.php:212 helpers.php:142
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: api.php:131 display.php:211 helpers.php:149
+msgid "User"
+msgstr "用户"
+
+#: api.php:132
+msgid "Post"
+msgstr "文章"
+
+#: api.php:267
+msgid "(form  %s not found)"
+msgstr "（没找到 %s 表单）"
+
+#: db.php:71
+msgid "Submit"
+msgstr "提交"
+
+#: db.php:93 db.php:128
+msgid "[form title] Submission"
+msgstr ""
+
+#. translators: the default name of a new form
+#: db.php:121
+msgid "New Form"
+msgstr "新表单"
+
+#: db.php:122
+msgid "Thank you! Your data has been submitted."
+msgstr "非常感谢！你的数据已经提交成功了。"
+
+#. translators: the default message given if a required item is left blank.
+#. You must include a backslash before any single quotes
+#: db.php:124
+msgid "\\'%s\\' is required."
+msgstr "\\'%s\\'  必填。"
+
+#: db.php:125
+msgid "'%s' is only available to registered users."
+msgstr ""
+
+#. translators: the following are for the numbers only validator
+#: db.php:134
+msgid "Numbers Only"
+msgstr "仅限数字"
+
+#: db.php:135
+msgid "'%s' must be a valid number"
+msgstr "'%s' 必须是有效的数字"
+
+#. translators: the following are for the phone number validator
+#: db.php:140
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: db.php:141
+msgid "'%s' must be a valid phone number"
+msgstr "'%s'  必须是有效的电话号码"
+
+#. translators: the regular expression for US phone numbers (XXX XXX XXXX).
+#: db.php:143
+msgid "/^.*[0-9]{3}.*[0-9]{3}.*[0-9]{4}.*$/"
+msgstr ""
+
+#. translators: the following are for the e-mail validator
+#: db.php:147 pages/editsettingsadv.php:258
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: db.php:148
+msgid "'%s' must be a valid e-mail address"
+msgstr "'%s' 必须是可用的 E-Mail 地址"
+
+#. translators: the following are for the date validator
+#: db.php:153
+msgid "Date (MM/DD/YY)"
+msgstr "日期 (MM/DD/YY)"
+
+#: db.php:154
+msgid "'%s' must be a date (MM/DD/YY)"
+msgstr "'%s' 必须是日期 (MM/DD/YY)"
+
+#: db.php:158
+msgid "State (U.S.)"
+msgstr ""
+
+#: db.php:159
+msgid "'%s' must be a valid state abbreviation"
+msgstr ""
+
+#: db.php:163
+msgid "Zip code (U.S.)"
+msgstr "邮政编码（美国）"
+
+#: db.php:164
+msgid "'%s' must be a valid zip code"
+msgstr "'%s' 必须是可用的邮政编码"
+
+#: db.php:168
+msgid "Dimensions (L x W x H)"
+msgstr ""
+
+#: db.php:169
+msgid "'%s' must be dimensions (L x W x H)"
+msgstr ""
+
+#: display.php:267 pages/editform.php:10 pages/formdatasingle.php:63
+#: pages/main.php:159 pages/main.php:169 types.php:54 types.php:61
+#: wordpress-form-manager.php:420 wordpress-form-manager.php:421
+msgid "Edit"
+msgstr "编辑"
+
+#: display.php:268 pages/main.php:124 pages/main.php:162 pages/main.php:175
+#: wordpress-form-manager.php:280
+msgid "Delete"
+msgstr "删除"
+
+#: helpers.php:156
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: helpers.php:162
+msgid "Parent"
+msgstr "父"
+
+#: helpers.php:169
+msgid "Post Link"
+msgstr "文章链接"
+
+#: pages/editform.php:9 pages/main.php:159 pages/main.php:169
+msgid "Edit this form"
+msgstr "编辑表单"
+
+#: pages/editform.php:16 pages/editform.php:23 pages/main.php:161
+#: pages/main.php:173
+msgid "View form data"
+msgstr "查看表单数据"
+
+#: pages/editform.php:17 pages/editform.php:24 pages/editformadv.php:147
+#: pages/editformdesign.php:120
+msgid "Submission Data"
+msgstr "提交数据"
+
+#: pages/editform.php:31
+msgid "Form extra"
+msgstr "表单附加"
+
+#: pages/editform.php:32
+msgid "Form Extra"
+msgstr "表单附加"
+
+#: pages/editform.php:38
+msgid "Conditional behavior"
+msgstr "条件行为"
+
+#: pages/editform.php:39
+msgid "Conditions"
+msgstr "条件"
+
+#: pages/editform.php:45 pages/main.php:160 pages/main.php:171
+msgid "Advanced form settings"
+msgstr "表单高级设置"
+
+#: pages/editform.php:46 pages/main.php:160 pages/main.php:171
+msgid "Advanced"
+msgstr "高级"
+
+#: pages/editform.php:59
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#. translators: the following are from the form's advanced section
+#: pages/editformadv.php:87 pages/editformadv.php:168
+#: pages/editformcond.php:74 pages/editformcond.php:120
+#: pages/editformdesign.php:96 pages/editformnn.php:57
+#: pages/editformnn.php:133 pages/formdata.php:602 pages/formdata.php:657
+#: pages/formdatasingle.php:60
+msgid "Cancel Changes"
+msgstr "取消更改"
+
+#: pages/editformadv.php:88 pages/editformadv.php:169
+#: pages/editformcond.php:75 pages/editformcond.php:121
+#: pages/editformnn.php:58 pages/editformnn.php:134 pages/editsettings.php:93
+#: pages/editsettingsadv.php:294 pages/formdata.php:603 pages/formdata.php:658
+#: pages/formdatasingle.php:61
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: pages/editformadv.php:94 pages/editformcond.php:82 pages/editformnn.php:64
+#: pages/editsettings.php:41 pages/editsettingsadv.php:150
+msgid "Settings Saved."
+msgstr "设置已保存"
+
+#: pages/editformadv.php:95 pages/editformcond.php:83
+#: pages/editformdesign.php:70 pages/editformnn.php:65
+#: pages/editsettings.php:42 pages/editsettingsadv.php:151
+msgid "Save failed."
+msgstr "保存失败。"
+
+#: pages/editformadv.php:104
+msgid "Behavior"
+msgstr "行为"
+
+#: pages/editformadv.php:110
+msgid "Behavior Type"
+msgstr "行为类型"
+
+#: pages/editformadv.php:110
+msgid "Behavior types other than 'Default' require a registered user"
+msgstr "默认以外的行为类型需要是注册用户"
+
+#: pages/editformadv.php:112
+msgid "Message displayed to unregistered users"
+msgstr "显示给未注册用户的信息"
+
+#: pages/editformadv.php:112
+msgid "Include '%s' where you would like the form title to appear"
+msgstr " '%s'  代表表单的标题"
+
+#: pages/editformadv.php:113
+msgid "Exact URL of destination page"
+msgstr "目标页面的确切地址"
+
+#: pages/editformadv.php:113
+msgid ""
+"This page will be loaded after submitting the form, regardless of the "
+"'behavior' setting"
+msgstr "在提交表单之后加载显示的页面，不管 ' 行为' 的设置"
+
+#: pages/editformadv.php:117
+msgid "Templates"
+msgstr "模板"
+
+#. translators: the following apply to the different kinds of templates
+#: pages/editformadv.php:121
+msgid "Form Display"
+msgstr "表单显示"
+
+#: pages/editformadv.php:121 pages/editformadv.php:122
+#: pages/editformadv.php:123
+msgid "(use default)"
+msgstr "（使用默认）"
+
+#: pages/editformadv.php:122 pages/editformdesign.php:153
+msgid "E-Mail Notifications"
+msgstr "E-Mail 通知"
+
+#: pages/editformadv.php:123
+msgid "Data Summary"
+msgstr "数据摘要"
+
+#: pages/editformadv.php:127
+msgid "Summary Fields"
+msgstr "摘要字段"
+
+#: pages/editformadv.php:129
+msgid "Hide empty fields in summaries"
+msgstr "在摘要里隐藏空白的字段"
+
+#: pages/editformadv.php:132
+msgid "Custom E-Mail Notifications"
+msgstr "自定义 E-Mail 通知"
+
+#: pages/editformadv.php:134
+msgid "Use custom e-mail notifications"
+msgstr "使用自定义 E-Mail 通知"
+
+#: pages/editformadv.php:135
+msgid ""
+"This will override the 'E-Mail Notifications' settings in both the main "
+"editor and the plugin settings page with the information entered below"
+msgstr ""
+
+#: pages/editformadv.php:139
+msgid "Publish Submitted Data"
+msgstr "发布提交的数据"
+
+#: pages/editformadv.php:141
+msgid "Publish submissions as posts"
+msgstr "作为文章发布"
+
+#: pages/editformadv.php:142
+msgid "Post category"
+msgstr "文章分类"
+
+#: pages/editformadv.php:143
+msgid "Post title"
+msgstr "文章标题"
+
+#: pages/editformadv.php:144
+msgid "Publish status"
+msgstr "发布状态"
+
+#: pages/editformadv.php:177
+msgid "Edit Form Definition:"
+msgstr "编辑表单定义："
+
+#: pages/editformadv.php:181
+msgid "Update Form"
+msgstr "更新表单"
+
+#: pages/editformcond.php:93 types/panelhelper.php:79
+msgid "Add"
+msgstr "添加"
+
+#. translators: the following are from the form editor
+#: pages/editformdesign.php:69
+msgid "Form updated."
+msgstr "表单已更新。"
+
+#: pages/editformdesign.php:85
+msgid "Publish"
+msgstr "发布"
+
+#: pages/editformdesign.php:90
+msgid "Save"
+msgstr "保存"
+
+#: pages/editformdesign.php:111
+msgid "Save Form"
+msgstr "保存表单"
+
+#. translators: the number of submissions for a form
+#: pages/editformdesign.php:125 pages/main.php:138 pages/main.php:147
+msgid "Submission count"
+msgstr "提交统计"
+
+#. translators: label for the date of the most recent submission
+#: pages/editformdesign.php:126
+msgid "Last submission"
+msgstr "最新提交"
+
+#: pages/editformdesign.php:136
+msgid "Form Slug"
+msgstr "表单别名"
+
+#: pages/editformdesign.php:160
+msgid "Send to (user entry)"
+msgstr "发送到（用户输入）"
+
+#: pages/editformdesign.php:162
+msgid "(none)"
+msgstr "（无）"
+
+#: pages/editformdesign.php:169
+msgid "Make sure the field you choose contains an E-Mail validator"
+msgstr "确定你选择的字段包含 E-Mail 验证器"
+
+#: pages/editformdesign.php:173
+msgid "Also send notification(s) to"
+msgstr "同时发送通知到"
+
+#: pages/editformdesign.php:175
+msgid "Enter a list of e-mail addresses separated by commas"
+msgstr "使用逗号分隔 E-Mail 地址列表"
+
+#: pages/editformdesign.php:179
+msgid "Subject"
+msgstr "主题"
+
+#: pages/editformdesign.php:184
+msgid "From"
+msgstr "从"
+
+#: pages/editformdesign.php:197
+msgid "Auto Redirect"
+msgstr "自动重定向"
+
+#: pages/editformdesign.php:203
+msgid "Automatically redirect the user after a successful form submission"
+msgstr "提交表单成功以后自动重定向用户"
+
+#: pages/editformdesign.php:205
+msgid "Enable automatic redirect"
+msgstr "启用自动重定向"
+
+#: pages/editformdesign.php:210
+msgid "Desination page"
+msgstr "目标页面"
+
+#: pages/editformdesign.php:223
+msgid "Timeout (seconds)"
+msgstr "过时（秒）"
+
+#: pages/editformdesign.php:250
+msgid "Add Form Element:"
+msgstr "添加表单元素："
+
+#: pages/editformdesign.php:263
+msgid "Insert Saved Form"
+msgstr "插入已保存的表单"
+
+#: pages/editformdesign.php:273
+msgid "Insert Fields From:"
+msgstr "插入字段："
+
+#: pages/editformdesign.php:280
+msgid "Insert After:"
+msgstr ""
+
+#: pages/editformdesign.php:282
+msgid "(Insert at beginning)"
+msgstr ""
+
+#: pages/editformdesign.php:286
+msgid "(Insert at end)"
+msgstr ""
+
+#: pages/editformdesign.php:289
+msgid "Load Fields"
+msgstr "载入字段"
+
+#: pages/editformdesign.php:303
+msgctxt "upgrade-notice"
+msgid "Private fields have moved"
+msgstr ""
+
+#: pages/editformdesign.php:326
+msgid "Appearance"
+msgstr "外观"
+
+#: pages/editformdesign.php:363
+msgid "Customize"
+msgstr "定制"
+
+#: pages/editformdesign.php:367
+msgid "Submit acknowledgement message:"
+msgstr "提交确认信息："
+
+#: pages/editformdesign.php:368
+msgid "This is displayed after the form has been submitted"
+msgstr "在表单被提交之后显示"
+
+#: pages/editformdesign.php:373
+msgid "Show summary with acknowledgment:"
+msgstr "显示确认摘要："
+
+#: pages/editformdesign.php:374
+msgid ""
+"A summary of the submitted data will be shown along with the acknowledgment "
+"message"
+msgstr "提交的数据摘要跟确认信息一起显示"
+
+#: pages/editformdesign.php:379
+msgid "Submit button label:"
+msgstr "提交按钮标签："
+
+#: pages/editformdesign.php:383
+msgid "Required item message:"
+msgstr "必须项目信息："
+
+#: pages/editformdesign.php:384
+msgid ""
+"This is shown if a user leaves a required item blank.  The item's label will "
+"appear in place of '%s'."
+msgstr "用户忘记填写必填项目时显示。项目的名称会替换 '%s' 显示。"
+
+#: pages/editformnn.php:74
+msgid "Item Nicknames"
+msgstr "项目昵称"
+
+#: pages/editformnn.php:76
+msgid ""
+"Giving a nickname to form items makes it easier to access their information "
+"within custom e-mail notifications and templates"
+msgstr ""
+"给表单项目添加个昵称，可以很容易在自定义 E-Mail 通知和模板中访问他们的信息。"
+
+#: pages/editformnn.php:80 types/base.php:109 types/blank.php:15
+msgid "Item Label"
+msgstr "项目标签"
+
+#: pages/editformnn.php:80
+msgid "Nickname"
+msgstr "昵称"
+
+#: pages/editformnn.php:98
+msgid "Private Fields"
+msgstr "私有字段"
+
+#: pages/editformnn.php:100
+msgid ""
+"Private fields only appear in the submission data table, and can be used to "
+"attach extra information to form submissions."
+msgstr "私有字段只在提交数据表里显示，可以用来收集额外的信息。"
+
+#. translators: the following are from the settings page (for the plugin)
+#: pages/editsettings.php:36
+msgid "Form Manager Settings"
+msgstr "表单管理设置"
+
+#: pages/editsettings.php:51
+msgid "Global E-Mail Notifications"
+msgstr "全局 E-Mail 通知"
+
+#: pages/editsettings.php:53
+msgid "These settings will be applied to every form you create."
+msgstr "这些设置会应用在你创建的所有的表单中。"
+
+#: pages/editsettings.php:54
+msgid "Send to Administrator"
+msgstr "发送给管理员"
+
+#: pages/editsettings.php:55
+msgid "Registered Users"
+msgstr "注册用户"
+
+#: pages/editsettings.php:55
+msgid ""
+"A confirmation e-mail will be sent to a registered user only when they "
+"submit a form"
+msgstr "提交表单的时候会发送一个确认邮件给注册用户"
+
+#: pages/editsettings.php:56
+msgid "Default Subject"
+msgstr "默认标题"
+
+#: pages/editsettings.php:57
+msgid "Default From"
+msgstr "默认表单"
+
+#: pages/editsettings.php:60
+msgid "Default Form Settings"
+msgstr "默认表单设置"
+
+#: pages/editsettings.php:62
+msgid "Form Title"
+msgstr "表单标题"
+
+#: pages/editsettings.php:63
+msgid "Submit Acknowledgment"
+msgstr "提交确认"
+
+#: pages/editsettings.php:64
+msgid "Required Item Message"
+msgstr "必填项目信息"
+
+#: pages/editsettings.php:64
+msgid ""
+"This is displayed when a user fails to input a required item.  Include '%s' "
+"in the message where you would like the item's label to appear."
+msgstr "用户输入必填项目出错的时候会显示的信息。 '%s' 表示项目标签。"
+
+#: pages/editsettings.php:67
+msgid "reCAPTCHA Settings"
+msgstr "reCAPTCHA 设置"
+
+#: pages/editsettings.php:68
+msgid "API Keys for reCAPTCHA can be acquired (for free) by visiting"
+msgstr "reCAPTCHA（验证码） 的 API 私钥，访问 "
+
+#: pages/editsettings.php:70
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA 公钥"
+
+#: pages/editsettings.php:71
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA 私钥"
+
+#: pages/editsettings.php:73 types/recaptcha.php:13
+msgid "Red"
+msgstr "红"
+
+#: pages/editsettings.php:73 types/recaptcha.php:13
+msgid "White"
+msgstr "白"
+
+#: pages/editsettings.php:73 types/recaptcha.php:13
+msgid "Black"
+msgstr "黑"
+
+#: pages/editsettings.php:73 types/recaptcha.php:13
+msgid "Clean"
+msgstr "干净"
+
+#: pages/editsettings.php:78
+msgid "Color Scheme"
+msgstr "配色方案"
+
+#: pages/editsettings.php:88
+msgid "Language"
+msgstr "语言"
+
+#. translators: this will be followed by the name of the template to be removed
+#: pages/editsettingsadv.php:98
+msgid "Are you sure you want to remove"
+msgstr "确定要移除吗？"
+
+#: pages/editsettingsadv.php:102
+msgid "Are you sure? All templates other than the default will be removed."
+msgstr ""
+
+#: pages/editsettingsadv.php:145
+msgid "Form Manager Settings - Advanced"
+msgstr "表单管理设置 - 高级"
+
+#: pages/editsettingsadv.php:160
+msgid "Text Validators"
+msgstr "文本验证"
+
+#: pages/editsettingsadv.php:164 pages/main.php:136 pages/main.php:145
+msgid "Name"
+msgstr "名称"
+
+#: pages/editsettingsadv.php:165
+msgid "Error Message"
+msgstr "错误信息"
+
+#: pages/editsettingsadv.php:166
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: pages/editsettingsadv.php:179
+msgid "delete"
+msgstr "删除"
+
+#: pages/editsettingsadv.php:194
+msgid "The regular expression is invalid."
+msgstr "无效的正则表达式。"
+
+#: pages/editsettingsadv.php:207
+msgid "Shortcode"
+msgstr "短代码"
+
+#: pages/editsettingsadv.php:209
+msgid "Plugin Shortcode"
+msgstr "插件短代码"
+
+#: pages/editsettingsadv.php:212
+msgid "Display Templates"
+msgstr "显示模板"
+
+#: pages/editsettingsadv.php:214
+msgid "Default Form Template"
+msgstr "默认表单模板"
+
+#: pages/editsettingsadv.php:215
+msgid "Default E-Mail Template"
+msgstr "默认 E-Mail 模板"
+
+#: pages/editsettingsadv.php:216
+msgid "Default Summary Template"
+msgstr "默认摘要模板"
+
+#: pages/editsettingsadv.php:218
+msgid "Reset Templates"
+msgstr "重置模板"
+
+#: pages/editsettingsadv.php:226
+msgid "Remove"
+msgstr "移除"
+
+#: pages/editsettingsadv.php:230
+msgid "Database Check"
+msgstr "数据库检查"
+
+#: pages/editsettingsadv.php:232
+msgid "Check the Form Manager database"
+msgstr "检查表单管理数据库"
+
+#: pages/editsettingsadv.php:232
+msgid "Go"
+msgstr "开始"
+
+#: pages/editsettingsadv.php:235
+msgid "Post/Page Editor"
+msgstr "文章/页面 编辑器"
+
+#: pages/editsettingsadv.php:237
+msgid "Enable the editor button"
+msgstr "启用编辑器按钮"
+
+#: pages/editsettingsadv.php:244
+msgid "Files"
+msgstr "文件"
+
+#: pages/editsettingsadv.php:247
+msgid "auto"
+msgstr "自动"
+
+#: pages/editsettingsadv.php:248
+msgid "direct"
+msgstr "直接"
+
+#: pages/editsettingsadv.php:249
+msgid "ssh"
+msgstr "ssh"
+
+#: pages/editsettingsadv.php:250
+msgid "ftpext"
+msgstr ""
+
+#: pages/editsettingsadv.php:251
+msgid "ftpsockets"
+msgstr ""
+
+#: pages/editsettingsadv.php:254
+msgid "Write method"
+msgstr "写入方法"
+
+#: pages/editsettingsadv.php:255
+msgid "Default file naming format"
+msgstr "默认文件命名格式"
+
+#: pages/editsettingsadv.php:260
+msgid "WordPress (wp_mail)"
+msgstr ""
+
+#: pages/editsettingsadv.php:261
+msgid "PHP (mail)"
+msgstr ""
+
+#: pages/editsettingsadv.php:262
+msgid "None"
+msgstr "无"
+
+#: pages/editsettingsadv.php:266
+msgid "Send method"
+msgstr "发送方法"
+
+#: pages/editsettingsadv.php:269
+msgid "Content Filtering"
+msgstr "内容过滤"
+
+#: pages/editsettingsadv.php:271
+msgid "Allowed HTML Tags"
+msgstr "允许的 HTML 标签"
+
+#: pages/editsettingsadv.php:271
+msgid ""
+"Enter tags including '<' and '>', e.g., \"<a><em><strong><br><hr>\" etc."
+msgstr "输入标签，比如 \"<a><em><strong><br><hr>\"  等等。"
+
+#: pages/editsettingsadv.php:274
+msgid "Security"
+msgstr "安全"
+
+#: pages/editsettingsadv.php:276
+msgid "Enable nonce check"
+msgstr "启用随机检查"
+
+#: pages/editsettingsadv.php:279
+msgid "Scripts"
+msgstr "脚本"
+
+#: pages/editsettingsadv.php:281
+msgid "Include scripts in the shortcode (instead of the footer)"
+msgstr "在短代码里包含脚本（替代页脚）"
+
+#: pages/editsettingsadv.php:284
+msgid "CSS"
+msgstr "CSS"
+
+#: pages/editsettingsadv.php:286
+msgid "Disable the default CSS"
+msgstr "禁用默认CSS"
+
+#: pages/formdata.php:23
+msgctxt "date-range"
+msgid "All"
+msgstr "所有"
+
+#: pages/formdata.php:24
+msgctxt "date-range"
+msgid "This month"
+msgstr "本月"
+
+#: pages/formdata.php:25
+msgctxt "date-range"
+msgid "Past 7 days"
+msgstr "过去7天"
+
+#: pages/formdata.php:26
+msgctxt "date-range"
+msgid "Today"
+msgstr "今天"
+
+#: pages/formdata.php:27
+msgctxt "date-range"
+msgid "Range..."
+msgstr "范围…"
+
+#: pages/formdata.php:119
+msgid "View"
+msgstr "查看"
+
+#: pages/formdata.php:323
+msgid "Showing data for the current month"
+msgstr "显示本月数据"
+
+#: pages/formdata.php:328
+msgid "Showing data from the past seven days"
+msgstr "显示过去七天的数据"
+
+#: pages/formdata.php:333
+msgid "Showing data for today"
+msgstr "显示今天的数据"
+
+#. translators: this is a date format. See php.net for more about that.
+#: pages/formdata.php:338
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: pages/formdata.php:342
+msgid "Showing data from %s to %s"
+msgstr "显示从 %s 到 %s 的数据"
+
+#: pages/formdata.php:435 wordpress-form-manager.php:316
+msgid "..."
+msgstr "..."
+
+#: pages/formdata.php:438
+msgid "Delete Selected"
+msgstr "删除所选"
+
+#: pages/formdata.php:439
+msgid "Delete All Submission Data"
+msgstr "删除所有提交的数据"
+
+#: pages/formdata.php:442
+msgid "Edit Selected"
+msgstr "编辑所选"
+
+#: pages/formdata.php:461 pages/formdatasingle.php:52
+msgid "Data updated."
+msgstr "数据已更新"
+
+#: pages/formdata.php:467
+msgid "Options"
+msgstr "选项"
+
+#: pages/formdata.php:471
+msgid "Column Options"
+msgstr "栏选项"
+
+#: pages/formdata.php:475 wordpress-form-manager.php:286
+msgid "Show"
+msgstr "显示"
+
+#: pages/formdata.php:477
+msgid "Show capability"
+msgstr ""
+
+#: pages/formdata.php:479
+msgid "Editable"
+msgstr "可编辑"
+
+#: pages/formdata.php:481
+msgid "Edit capability"
+msgstr ""
+
+#: pages/formdata.php:483 pages/formdatasingle.php:67
+msgid "Summary"
+msgstr "摘要"
+
+#: pages/formdata.php:516
+msgctxt "date-range"
+msgid "Update"
+msgstr "更新"
+
+#: pages/formdata.php:524
+msgid "Download Data (.csv)"
+msgstr "下载数据(.csv)"
+
+#: pages/formdata.php:527
+msgid "All entries (including hidden fields)"
+msgstr "所有条目（包含隐藏字段）"
+
+#: pages/formdata.php:529
+msgid "All entries"
+msgstr "所有条目"
+
+#: pages/formdata.php:530
+msgid "Search results (all pages)"
+msgstr "搜索结果（所有页面）"
+
+#: pages/formdata.php:531
+msgid "Search results (current page only)"
+msgstr "搜索结果（仅当前页面）"
+
+#: pages/formdata.php:533
+msgid "Download"
+msgstr "下载"
+
+#: pages/formdata.php:538 wordpress-form-manager.php:272
+msgid "Click here to download"
+msgstr "点击下载"
+
+#: pages/formdata.php:544
+msgid "Date Range"
+msgstr "日期范围"
+
+#: pages/formdata.php:548
+msgctxt "date-range"
+msgid "Show"
+msgstr "显示"
+
+#: pages/formdata.php:557
+msgctxt "date-range"
+msgid "From"
+msgstr "从"
+
+#: pages/formdata.php:560
+msgctxt "date-range"
+msgid "To"
+msgstr "到"
+
+#: pages/formdata.php:566
+msgid "Search"
+msgstr "搜索"
+
+#: pages/formdata.php:569
+msgid "Search for"
+msgstr "搜索"
+
+#: pages/formdata.php:573
+msgid "Field"
+msgstr "字段"
+
+#: pages/formdata.php:581
+msgid "Results per page"
+msgstr "每页结果"
+
+#: pages/formdata.php:584
+msgid "Sort by"
+msgstr "排序方式"
+
+#: pages/formdata.php:587
+msgid "Order"
+msgstr "顺序"
+
+#: pages/formdata.php:589
+msgid "Descending"
+msgstr "降序"
+
+#: pages/formdata.php:590
+msgid "Ascending"
+msgstr "升序"
+
+#: pages/formdata.php:593
+msgid "Update"
+msgstr "更新"
+
+#: pages/formdata.php:614 pages/main.php:126
+msgid "Apply"
+msgstr "应用"
+
+#: pages/formdata.php:627
+msgid "Showing row(s) %s - %s out of %s"
+msgstr "显示 %s - %s ( 共 %s )"
+
+#: pages/formdata.php:628
+msgctxt "data-page-select"
+msgid "Pages"
+msgstr "页面"
+
+#. translators: the following are used on the main page, (the one that lists
+#. all forms)
+#: pages/main.php:73 pages/main.php:113 wordpress-form-manager.php:410
+#: wordpress-form-manager.php:411
+msgid "Forms"
+msgstr "表单"
+
+#: pages/main.php:75
+msgid "Are you sure you want to delete:"
+msgstr "确定要删除："
+
+#: pages/main.php:91
+msgid "Yes"
+msgstr "是"
+
+#: pages/main.php:92
+msgid "Cancel"
+msgstr "否"
+
+#: pages/main.php:105
+msgctxt "upgrade-notice"
+msgid ""
+"The 'Submission Data' page has changed. You may want to review permissions "
+"if you are using the 'Members' plugin."
+msgstr ""
+
+#: pages/main.php:115
+msgid "Add New"
+msgstr "添加"
+
+#: pages/main.php:123
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: pages/main.php:137 pages/main.php:146
+msgid "Slug"
+msgstr "别名"
+
+#: pages/main.php:139 pages/main.php:148
+msgid "Last Submission"
+msgstr "最近提交"
+
+#: pages/main.php:161 pages/main.php:173
+msgid "Data"
+msgstr "数据"
+
+#: pages/main.php:162 pages/main.php:175
+msgid "Delete this form"
+msgstr "删除表单"
+
+#. translators: the following is displayed if there are no forms to list
+#: pages/main.php:191
+msgid " No forms yet..."
+msgstr "还没有表单..."
+
+#. translators: the following are descriptions of the different behavior types
+#: settings.php:16 types/list.php:155 types/text.php:157
+#: types/textarea.php:136
+msgid "Default"
+msgstr "默认"
+
+#: settings.php:17
+msgid "Registered users only"
+msgstr "只有注册用户"
+
+#: settings.php:18
+msgid "Unregistered users can only view the form"
+msgstr "未注册用户只能查看表单"
+
+#: settings.php:19
+msgid "Keep only most recent submission"
+msgstr "只留下最近的提交"
+
+#: settings.php:20
+msgid "Single submission"
+msgstr "每个用户只能提交一次"
+
+#: settings.php:21
+msgid "'User profile' style"
+msgstr "提交后可继续编辑"
+
+#. translators: the following are for the options for the default form display
+#. template
+#: templates/fm-form-default.php:62
+msgid "Show form title:"
+msgstr "显示表单标题："
+
+#: templates/fm-form-default.php:63
+msgid "Show border:"
+msgstr "显示边框："
+
+#: templates/fm-form-default.php:64
+msgid "Label position:"
+msgstr "标签位置："
+
+#: templates/fm-form-default.php:65
+msgid "Labels can be placed to the left or above each field"
+msgstr "标签可以在字段的左边或顶部显示"
+
+#: templates/fm-form-default.php:66
+msgctxt "template-option"
+msgid "Left"
+msgstr "左边"
+
+#: templates/fm-form-default.php:67
+msgctxt "template-option"
+msgid "Top"
+msgstr "顶部"
+
+#: templates/fm-form-default.php:68
+msgid "Label width (in pixels):"
+msgstr "标签宽度"
+
+#: templates/fm-form-default.php:69
+msgid "Applies to checkboxes, and when labels are to the left"
+msgstr "当标签在左边时应用在复框上"
+
+#: types/base.php:110 types/blank.php:16 types/checkbox.php:12
+#: types/file.php:22 types/list.php:17 types/note.php:60
+#: types/separator.php:41 types/text.php:40 types/text.php:231
+#: types/text.php:306 types/textarea.php:44
+msgid "Item Description"
+msgstr "项目描述"
+
+#: types/blank.php:18
+msgid "Item Nickname"
+msgstr "项目昵称"
+
+#: types/blank.php:38 types/checkbox.php:62 types/checkbox.php:114
+#: types/file.php:191 types/list.php:150 types/list.php:317
+#: types/recaptcha.php:91 types/separator.php:15 types/text.php:61
+#: types/text.php:156 types/text.php:217 types/text.php:290
+#: types/textarea.php:74 types/textarea.php:135
+msgid "Label"
+msgstr "标签"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/checkbox.php:7
+msgid "Checkbox"
+msgstr "复选框"
+
+#: types/checkbox.php:11
+msgid "New Checkbox"
+msgstr "新复选框"
+
+#: types/checkbox.php:28 types/checkbox.php:40 types/checkbox.php:52
+#: types/checkbox.php:131 types/checkbox.php:132
+msgid "yes"
+msgstr "是"
+
+#: types/checkbox.php:52 types/checkbox.php:53 types/checkbox.php:131
+#: types/checkbox.php:132
+msgid "no"
+msgstr "否"
+
+#: types/checkbox.php:63
+msgid "Position"
+msgstr "位置"
+
+#: types/checkbox.php:63
+msgid "Left"
+msgstr "左"
+
+#: types/checkbox.php:63
+msgid "Right"
+msgstr "右"
+
+#: types/checkbox.php:64 types/checkbox.php:115
+msgid "Checked by Default"
+msgstr "默认勾选"
+
+#: types/checkbox.php:65 types/file.php:192 types/list.php:153
+#: types/text.php:65 types/textarea.php:78
+msgid "Required"
+msgstr "必填"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/file.php:8
+msgid "File"
+msgstr "文件"
+
+#: types/file.php:21
+msgid "New File Upload"
+msgstr "新文件上传"
+
+#: types/file.php:54
+msgid "File upload exceeded maximum allowable size."
+msgstr "上传的文件超过了最大允许的尺寸。"
+
+#: types/file.php:57
+msgid "There was an error with the file upload."
+msgstr "上传文件出现错误。"
+
+#. translators: this will be shown along with the item label and file
+#. extension, as in, "(File Upload) Cannot be of type '.txt'"
+#: types/file.php:64
+msgid "Cannot be of type"
+msgstr "不允许的类型"
+
+#. translators: this will be shown along with the item label and a list of file
+#. extensions, as in, "(File Upload) Can only be of types '.txt, .doc, .pdf'"
+#: types/file.php:69
+msgid "Can only be of types"
+msgstr "只被允许的类型"
+
+#: types/file.php:193
+msgid "Max file size (in kB)"
+msgstr "最大文件尺寸（单位：KB）"
+
+#: types/file.php:194
+msgid "Your host restricts uploads to"
+msgstr "你的主机限制上传到"
+
+#: types/file.php:195
+msgid "File Types"
+msgstr "文件类型"
+
+#: types/file.php:196
+msgid ""
+"Enter a list of extensions separated by commas, e.g. \".txt, .rtf, .doc\""
+msgstr "输入扩展名，使用逗号分隔，比如  \".txt, .rtf, .doc\""
+
+#: types/file.php:197
+msgid "Only allow"
+msgstr "只允许"
+
+#: types/file.php:198
+msgid "Do not allow"
+msgstr "不允许"
+
+#: types/file.php:199
+msgid "Uploads"
+msgstr "上传"
+
+#: types/file.php:200
+msgid "Upload directory"
+msgstr "上传目录"
+
+#: types/file.php:202
+msgid "<em>This does not appear to be a valid directory</em>"
+msgstr "无效目录"
+
+#: types/file.php:203
+msgid ""
+"Using an upload directory will allow you to post links to uploaded files.  "
+"Otherwise, Form Manager will manage the uploaded files for you in the "
+"database."
+msgstr ""
+"使用上传目录会允许链接到上传后的文件，不然的话表单管理会在数据库管理上传文"
+"件。"
+
+#: types/file.php:204
+msgid "Upload URL"
+msgstr "上传 URL"
+
+#: types/file.php:205
+msgid ""
+"This will be the base URL used for links to the uploaded files.  If left "
+"blank, no links will be generated."
+msgstr "这是链接到上传文件的基本 URL，如果留空，则不会生成链接。"
+
+#: types/file.php:206
+msgid "Name format"
+msgstr "名称格式"
+
+#: types/file.php:207
+msgid ""
+"This only applies if you specify an upload directory. Insert %filename% "
+"where you want the filename to appear. The rest will be used as a PHP "
+"timestamp format."
+msgstr ""
+
+#: types/file.php:250
+msgid "'Only allow' must be a list of extensions separated by commas"
+msgstr "'仅允许' 必须是一个使用逗号分隔开的扩展名的列表"
+
+#: types/file.php:254
+msgid "'Do not allow' must be a list of extensions separated by commas"
+msgstr "'不允许' 必须是一个使用逗号分隔开的扩展名的列表"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/list.php:11
+msgid "List"
+msgstr "列表"
+
+#: types/list.php:16
+msgid "New List"
+msgstr "新列表"
+
+#: types/list.php:151 types/list.php:318 types/recaptcha.php:92
+msgid "Style"
+msgstr "样式"
+
+#: types/list.php:151 types/list.php:318
+msgid "Dropdown"
+msgstr "下拉菜单"
+
+#: types/list.php:151 types/list.php:318
+msgid "List Box"
+msgstr ""
+
+#: types/list.php:151 types/list.php:318
+msgid "Radio Buttons"
+msgstr "单选按钮"
+
+#: types/list.php:151 types/list.php:318
+msgid "Checkboxes"
+msgstr "复选框"
+
+#: types/list.php:152 types/text.php:63 types/textarea.php:77
+#: types/textarea.php:138
+msgid "Width (in pixels)"
+msgstr "宽（单位：px）"
+
+#: types/list.php:154 types/list.php:319
+msgid "List Items"
+msgstr "列表项目"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/note.php:7
+msgid "Note"
+msgstr "注释"
+
+#: types/note.php:22
+msgid "HTML"
+msgstr "HTML"
+
+#: types/note.php:59
+msgid "New Note"
+msgstr "新注释"
+
+#. translators: this is for the list element options
+#: types/panelhelper.php:74
+msgid "Enter Items as Text"
+msgstr "输入项目"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/recaptcha.php:10
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: types/recaptcha.php:19
+msgid "(No reCAPTCHA API public key found)"
+msgstr "（没发现 reCAPTCHA API 公钥）"
+
+#: types/recaptcha.php:39
+msgid "The reCAPTCHA was incorrect."
+msgstr "验证码不正确"
+
+#: types/recaptcha.php:85
+msgid "You need reCAPTCHA API keys."
+msgstr "你需要 reCAPTCHA API 私钥。"
+
+#: types/recaptcha.php:85
+msgid "Fix this in"
+msgstr ""
+
+#: types/recaptcha.php:85 wordpress-form-manager.php:429
+#: wordpress-form-manager.php:430 wordpress-form-manager.php:467
+msgid "Settings"
+msgstr "设置"
+
+#: types/recaptcha.php:86
+msgid "(reCAPTCHA field)"
+msgstr "（reCAPTCHA 字段）"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/separator.php:7
+msgid "Separator"
+msgstr "分隔符"
+
+#: types/separator.php:40
+msgid "New Separator"
+msgstr "新分隔符"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/text.php:14
+msgid "Text"
+msgstr "文本"
+
+#: types/text.php:39
+msgid "New Text"
+msgstr "新文本"
+
+#: types/text.php:62 types/textarea.php:75
+msgid "Placeholder"
+msgstr "占位符"
+
+#: types/text.php:64
+msgid "Max characters"
+msgstr "最大字符"
+
+#: types/text.php:66
+msgid "Validation"
+msgstr "验证"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/text.php:198
+msgid "ID Number"
+msgstr "ID号"
+
+#: types/text.php:218
+msgid "Next Number"
+msgstr "下一号码"
+
+#: types/text.php:230
+msgid "New ID Number"
+msgstr "新 ID 号码"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/text.php:247
+msgid "Tracking Number"
+msgstr "跟踪号码"
+
+#: types/text.php:291
+msgid "Carrier"
+msgstr "快递公司"
+
+#: types/text.php:305
+msgid "New Tracking Number"
+msgstr "新跟踪号码"
+
+#. translators: this appears in the 'Add Form Element' menu
+#: types/textarea.php:7
+msgid "Text Area"
+msgstr "文本区域"
+
+#: types/textarea.php:43
+msgid "New Text Area"
+msgstr "新文本区域"
+
+#: types/textarea.php:76 types/textarea.php:137
+msgid "Height (in pixels)"
+msgstr "高（单位：px）"
+
+#: types.php:56 wordpress-form-manager.php:284
+msgid "Hide"
+msgstr "隐藏"
+
+#: wordpress-form-manager.php:60
+msgid "Form Manager requires WordPress version 3.0 or higher"
+msgstr "表单管理需要 WordPress 3.0 或以上的版本"
+
+#: wordpress-form-manager.php:66
+msgid "Form Manager requires PHP version 5.2 or higher"
+msgstr "表单管理需要 PHP 5.2 或以上的版本"
+
+#: wordpress-form-manager.php:73
+msgid "Form manager requires MySQL version 5.0.3 or higher"
+msgstr "表单管理需要 MySQL 5.0.3 或以上的版本"
+
+#: wordpress-form-manager.php:268
+msgid ""
+"There may be (data) associated with the form item(s) you removed.  Are you "
+"sure you want to save?"
+msgstr "你移除的表单项目里可能有数据。确定要保存吗？"
+
+#: wordpress-form-manager.php:270
+msgid "Any unsaved changes will be lost. Are you sure?"
+msgstr "放弃没有保存的更改吗？"
+
+#: wordpress-form-manager.php:274
+msgid "There are no files to download"
+msgstr "没有可以下载的文件"
+
+#: wordpress-form-manager.php:276
+msgid "Unable to create .ZIP file"
+msgstr "无法创建 .zip 文件"
+
+#: wordpress-form-manager.php:278
+msgid "Move"
+msgstr "移动"
+
+#: wordpress-form-manager.php:282
+msgid "Enter items separated by commas"
+msgstr "使用逗号分隔项目"
+
+#: wordpress-form-manager.php:288
+msgid "Add Test"
+msgstr "添加条件"
+
+#: wordpress-form-manager.php:290
+msgid "Add Item"
+msgstr "添加项目"
+
+#: wordpress-form-manager.php:292
+msgid "Applies to"
+msgstr "应用到"
+
+#: wordpress-form-manager.php:294
+msgid "AND"
+msgstr "与"
+
+#: wordpress-form-manager.php:296
+msgid "OR"
+msgstr "或"
+
+#: wordpress-form-manager.php:298
+msgid "(Choose a rule type)"
+msgstr "（选择规则类型）"
+
+#: wordpress-form-manager.php:300
+msgid "Only show elements if..."
+msgstr "只有满足下列条件时才显示元素…"
+
+#: wordpress-form-manager.php:302
+msgid "Show elements if..."
+msgstr "显示元素的条件…"
+
+#: wordpress-form-manager.php:304
+msgid "Hide elements if..."
+msgstr "隐藏元素的条件…"
+
+#: wordpress-form-manager.php:306
+msgid "Only require elements if..."
+msgstr "在什么条件下才需要必填元素..."
+
+#: wordpress-form-manager.php:308
+msgid "Require elements if"
+msgstr "必填元素的条件"
+
+#: wordpress-form-manager.php:310
+msgid "Do not require elements if"
+msgstr "元素不用必填的条件..."
+
+#: wordpress-form-manager.php:312
+msgid "Always"
+msgstr "一直"
+
+#: wordpress-form-manager.php:314
+msgid "Never"
+msgstr "从不"
+
+#: wordpress-form-manager.php:318
+msgid "equals"
+msgstr "等于"
+
+#: wordpress-form-manager.php:320
+msgid "does not equal"
+msgstr "不等于"
+
+#: wordpress-form-manager.php:322
+msgid "is less than"
+msgstr "小于"
+
+#: wordpress-form-manager.php:324
+msgid "is greater than"
+msgstr "大于"
+
+#: wordpress-form-manager.php:326
+msgid "is less than or equal to"
+msgstr "小于或等于"
+
+#: wordpress-form-manager.php:328
+msgid "is greater than or equal to"
+msgstr "大于或等于"
+
+#: wordpress-form-manager.php:330
+msgid "is empty"
+msgstr "空白"
+
+#: wordpress-form-manager.php:332
+msgid "is not empty"
+msgstr "不为空"
+
+#: wordpress-form-manager.php:334
+msgid "is checked"
+msgstr "勾选"
+
+#: wordpress-form-manager.php:336
+msgid "is not checked"
+msgstr "不勾选"
+
+#: wordpress-form-manager.php:438 wordpress-form-manager.php:439
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: wordpress-form-manager.php:583 wordpress-form-manager.php:594
+msgid ""
+"Form Manager: shortcode must include a form slug.  For example, something "
+"like '%s'"
+msgstr "表单管理：短代码必须包含表单别名，比如，像 '%s'"
+
+#. Plugin Name of the plugin/theme
+msgid "Form Manager"
+msgstr "表单管理"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.campbellhoffman.com/form-manager/"
+msgstr "http://www.campbellhoffman.com/form-manager/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create custom forms; download entered data in .csv format; validation, "
+"required fields, custom acknowledgments;"
+msgstr ""
+"创建自定义表单，下载输入的数据（.csv 格式），验证，必填，自定义确认信息。"
+
+#. Author of the plugin/theme
+msgid "Campbell Hoffman"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.campbellhoffman.com/"
+msgstr "http://www.campbellhoffman.com/"
