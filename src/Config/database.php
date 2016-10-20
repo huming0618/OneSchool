@@ -78,7 +78,8 @@ class DATABASE_CONFIG {
 	    'host'       => '127.0.0.1',
 	    'login'      => 'root',
 	    'password'   => '',
-	    'database'   => 'cunxiaoo_houtai'
+	    'database'   => 'cunxiaoo_houtai',
+	    'encoding' => 'utf8'
 	);
 	
 	public $test = array(

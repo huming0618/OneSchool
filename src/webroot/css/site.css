@@ -80,6 +80,32 @@ body {
 	margin-top:20px;
 }
 
+.breadcrumb li > a.large{
+	font-size: 27px;
+}
+
+dl.plane{
+	margin-bottom: 50px;
+}
+
+dl.plane > dt{
+	background: none repeat scroll 0% 0% #4EBFEA;
+	color: #FFF;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 12px;
+	padding: 4px 7px;
+	width: 90px;
+
+}
+
+dl.plane > dd{
+	margin: 2px 0px;
+	padding: 3px 0px;
+	font-size: 13px;
+}
+
 @media (min-width: 768px) {
 	.logo{
 		height:91px;

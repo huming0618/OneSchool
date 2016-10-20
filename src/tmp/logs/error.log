@@ -11083,3 +11083,936 @@ Request URL: /blog/spinner.gif
 Stack Trace:
 #0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-10 14:29:57 Error: [MissingLayoutException] Layout file "/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Layouts/home_layout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Layouts/home_layout.ctp',
+)
+Request URL: /home
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(498): View->_getLayoutFileName('home_layout')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(468): View->renderLayout('', 'home_layout')
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-08-10 16:04:41 Error: [MissingHelperException] Helper class pageAboutHelper could not be found.
+Exception Attributes: array (
+  'class' => 'pageAboutHelper',
+  'plugin' => false,
+)
+Request URL: /home
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('pageAbout')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(818): HelperCollection->__isset('pageAbout')
+#2 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Elements/header.ctp(14): View->__get('pageAbout')
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(929): include('/Users/peter/De...')
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(891): View->_evaluate('/Users/peter/De...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(1189): View->_render('/Users/peter/De...', Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(406): View->_renderElement('/Users/peter/De...', Array, Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Layouts/home_layout.ctp(23): View->element('header')
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(929): include('/Users/peter/De...')
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(891): View->_evaluate('/Users/peter/De...', Array)
+#10 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(523): View->_render('/Users/peter/De...')
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(468): View->renderLayout('', 'home_layout')
+#12 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-08-10 16:15:00 Error: [MissingControllerException] Controller class DonationController could not be found.
+Exception Attributes: array (
+  'class' => 'DonationController',
+  'plugin' => NULL,
+)
+Request URL: /donation
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-10 16:15:06 Error: [MissingControllerException] Controller class DonationController could not be found.
+Exception Attributes: array (
+  'class' => 'DonationController',
+  'plugin' => NULL,
+)
+Request URL: /donation
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 01:27:48 Error: [MissingControllerException] Controller class StudentController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentController',
+  'plugin' => NULL,
+)
+Request URL: /student
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 01:29:26 Error: [MissingViewException] View file "/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Donation/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Donation/index.ctp',
+)
+Request URL: /donation
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DonationController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-11 01:31:05 Error: [MissingControllerException] Controller class StudentController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentController',
+  'plugin' => NULL,
+)
+Request URL: /student
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:00:00 Error: [MissingControllerException] Controller class StudentController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentController',
+  'plugin' => NULL,
+)
+Request URL: /student
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:00:40 Error: [MissingControllerException] Controller class SchoolController could not be found.
+Exception Attributes: array (
+  'class' => 'SchoolController',
+  'plugin' => NULL,
+)
+Request URL: /school
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:03:02 Error: [MissingControllerException] Controller class MessageController could not be found.
+Exception Attributes: array (
+  'class' => 'MessageController',
+  'plugin' => NULL,
+)
+Request URL: /message
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:03:57 Error: [MissingControllerException] Controller class DonatorController could not be found.
+Exception Attributes: array (
+  'class' => 'DonatorController',
+  'plugin' => NULL,
+)
+Request URL: /donator
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:04:16 Error: [MissingViewException] View file "/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Donator/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Donator/index.ctp',
+)
+Request URL: /donator
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DonatorController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-11 02:04:53 Error: [MissingControllerException] Controller class MessageController could not be found.
+Exception Attributes: array (
+  'class' => 'MessageController',
+  'plugin' => NULL,
+)
+Request URL: /message
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-11 02:17:35 Error: [MissingControllerException] Controller class MessageController could not be found.
+Exception Attributes: array (
+  'class' => 'MessageController',
+  'plugin' => NULL,
+)
+Request URL: /message
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-19 13:46:36 Error: [NotFoundException] Invalid post
+Request URL: /school/detail?id=7
+Stack Trace:
+#0 [internal function]: SchoolController->detail()
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-21 19:59:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Donation.student_id' in 'order clause'
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `SchoolD...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `SchoolD...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `SchoolD...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(School), 'SELECT `SchoolD...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(School), Object(Donation), 'hasMany', 'SchoolDonation', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#10 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#11 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#12 [internal function]: SchoolController->detail('7')
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#14 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#16 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-08-21 19:59:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Donation.student_id' in 'order clause'
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `SchoolD...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `SchoolD...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `SchoolD...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(School), 'SELECT `SchoolD...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(School), Object(Donation), 'hasMany', 'SchoolDonation', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#10 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#11 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#12 [internal function]: SchoolController->detail('7')
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#14 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#16 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-08-21 20:47:17 Error: [MissingTableException] Table view__donations for model SchoolDonation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'view__donations',
+  'class' => 'SchoolDonation',
+  'ds' => 'default',
+)
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(3496): Model->setSource('view__donations')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#6 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#8 [internal function]: SchoolController->detail('7')
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#10 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-21 20:47:19 Error: [MissingTableException] Table view__donations for model SchoolDonation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'view__donations',
+  'class' => 'SchoolDonation',
+  'ds' => 'default',
+)
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(3496): Model->setSource('view__donations')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#6 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#8 [internal function]: SchoolController->detail('7')
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#10 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-21 20:47:31 Error: [MissingTableException] Table view_donations for model SchoolDonation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'view_donations',
+  'class' => 'SchoolDonation',
+  'ds' => 'default',
+)
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(3496): Model->setSource('view_donations')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#6 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#8 [internal function]: SchoolController->detail('7')
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#10 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-21 20:47:34 Error: [MissingTableException] Table view_donations for model SchoolDonation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'view_donations',
+  'class' => 'SchoolDonation',
+  'ds' => 'default',
+)
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(3496): Model->setSource('view_donations')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#6 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#8 [internal function]: SchoolController->detail('7')
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#10 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-21 21:57:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SchoolSchedules.schoolsch_id' in 'field list'
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `SchoolS...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `SchoolS...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `SchoolS...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(School), 'SELECT `SchoolS...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(School), Object(AppModel), 'hasMany', 'SchoolSchedules', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#10 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#11 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#12 [internal function]: SchoolController->detail('7')
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#14 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#16 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-08-21 22:11:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SchoolFeedbacks.submiton' in 'order clause'
+Request URL: /school/detail/7
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `SchoolF...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `SchoolF...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `SchoolF...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(School), 'SELECT `SchoolF...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(School), Object(AppModel), 'hasMany', 'SchoolFeedbacks', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(School), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(800): DboSource->query('findById', Array, Object(School))
+#10 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): Model->__call('findById', Array)
+#11 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/SchoolController.php(19): School->findById('7')
+#12 [internal function]: SchoolController->detail('7')
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SchoolController), Array)
+#14 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#16 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-08-24 09:51:15 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:51:15 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:51:26 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:51:26 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:51:30 Error: [MissingActionException] Action StudentController::quickview2() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentController',
+  'action' => 'quickview2',
+)
+Request URL: /student/quickview2/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 09:51:35 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:51:35 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:51:51 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:51:51 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:52:36 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:52:36 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:52:37 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:52:37 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:52:53 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:52:53 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:52:54 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:52:54 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:53:24 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:53:24 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:53:25 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:53:25 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:54:01 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:54:01 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:54:36 Error: [MissingControllerException] Controller class Student2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Student2Controller',
+  'plugin' => NULL,
+)
+Request URL: /student2/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 09:54:45 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:54:45 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:54:53 Error: [MissingControllerException] Controller class Student23Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Student23Controller',
+  'plugin' => NULL,
+)
+Request URL: /student23/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 09:55:06 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:55:06 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:55:10 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview
+Stack Trace:
+#0 [internal function]: StudentController->quickview()
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 09:55:10 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview
+Stack Trace:
+#0 [internal function]: StudentController->quickview()
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 09:55:56 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:55:56 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:59:45 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:59:45 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:59:46 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:59:46 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 09:59:47 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 09:59:47 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:00:00 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:00:00 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:00:01 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:00:01 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:01:28 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:01:28 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:03:59 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:03:59 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:04:00 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:04:00 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:04:02 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:04:02 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:04:50 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php, line 21]
+2014-08-24 10:04:50 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/peter/De...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/peter/De...', 21, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 10:06:20 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 10:06:54 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 10:06:56 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 10:06:57 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 10:07:48 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 10:08:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SchoolDonation.id' in 'order clause'
+Request URL: /student/quickview/2
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Student...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Student...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `Student...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(User), 'SELECT `Student...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(User), Object(ViewDonation), 'hasMany', 'StudentDonation', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(1594): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php(22): Model->read()
+#10 [internal function]: StudentController->quickview('2')
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#12 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-08-24 10:08:51 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/1
+Stack Trace:
+#0 [internal function]: StudentController->quickview('1')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 14:16:43 Error: [MissingTableException] Table viewdonations for model StudentDonation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'viewdonations',
+  'class' => 'StudentDonation',
+  'ds' => 'default',
+)
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(3496): Model->setSource('viewdonations')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(1594): Model->find('first', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php(22): Model->read()
+#6 [internal function]: StudentController->quickview('1')
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-24 14:17:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SchoolDonation.id' in 'order clause'
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Student...', Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Student...', Array, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `Student...', false)
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(User), 'SELECT `Student...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(User), Object(ViewDonation), 'hasMany', 'StudentDonation', Array, Array, true, Array, 0, Array)
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Model/Model.php(1594): Model->find('first', Array)
+#9 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/Controller/StudentController.php(22): Model->read()
+#10 [internal function]: StudentController->quickview('1')
+#11 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#12 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-08-26 14:11:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /files/1.jpg
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-26 14:11:37 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /files/1.jpg
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-26 14:14:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /files/1.jpg
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-26 14:16:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /files/1.jpg
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-26 14:29:38 Error: [MissingHelperException] Helper class wwwrootHelper could not be found.
+Exception Attributes: array (
+  'class' => 'wwwrootHelper',
+  'plugin' => false,
+)
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('wwwroot')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(818): HelperCollection->__isset('wwwroot')
+#2 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp(3): View->__get('wwwroot')
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(929): include('/Users/peter/De...')
+#4 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(891): View->_evaluate('/Users/peter/De...', Array)
+#5 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/View/View.php(460): View->_render('/Users/peter/De...')
+#6 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#7 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-26 14:29:39 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview/%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20http-equiv=
+Stack Trace:
+#0 [internal function]: StudentController->quickview('<!DOCTYPE html>...')
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-26 14:35:21 Error: [NotFoundException] Invalid post
+Request URL: /student/quickview
+Stack Trace:
+#0 [internal function]: StudentController->quickview()
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(StudentController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-11 13:24:22 Error: [MissingControllerException] Controller class SchoolsController could not be found.
+Exception Attributes: array (
+  'class' => 'SchoolsController',
+  'plugin' => NULL,
+)
+Request URL: /schools
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-11 13:25:15 Error: [MissingActionException] Action SchoolController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'SchoolController',
+  'action' => '1',
+)
+Request URL: /school/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SchoolController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-13 14:55:41 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:55:41 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:55:48 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:55:48 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:55:49 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:55:49 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:56:18 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 56]
+2014-09-13 14:56:18 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:56:19 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 56]
+2014-09-13 14:56:19 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:56:20 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 56]
+2014-09-13 14:56:20 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 56, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:56:36 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:56:36 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:57:10 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:57:10 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:57:11 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:57:11 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:59:03 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:59:03 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-13 14:59:04 Error: Fatal Error (4): syntax error, unexpected T_AS in [/Users/peter/Desktop/workspace/OneSchool/program/OneSchool/src/View/Student/quickview.ctp, line 55]
+2014-09-13 14:59:04 Error: [FatalErrorException] syntax error, unexpected T_AS
+Request URL: /student/quickview/1
+Stack Trace:
+#0 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/peter/De...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#2 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/peter/De...', 55, Array)
+#3 /Users/peter/Desktop/workspace/OneSchool/cakecore/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

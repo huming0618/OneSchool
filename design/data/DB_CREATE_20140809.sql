@@ -2,6 +2,7 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
+DROP SCHEMA IF EXISTS `cunxiaoo_houtai` ;
 CREATE SCHEMA IF NOT EXISTS `cunxiaoo_houtai` DEFAULT CHARACTER SET utf8 ;
 USE `cunxiaoo_houtai` ;
 
@@ -15,9 +16,11 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`address_dictionary` (
   `province` VARCHAR(45) NULL DEFAULT NULL,
   `city` VARCHAR(45) NULL DEFAULT NULL,
   `area` VARCHAR(45) NULL DEFAULT NULL,
-  `township` VARCHAR(45) NULL DEFAULT NULL,
   `town` VARCHAR(45) NULL DEFAULT NULL,
   `villiage` VARCHAR(45) NULL DEFAULT NULL,
+  `level` INT NULL,
+  `parent_code` VARCHAR(45) NULL,
+  `code` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
@@ -33,13 +36,15 @@ DROP TABLE IF EXISTS `cunxiaoo_houtai`.`users` ;
 CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`users` (
   `id` INT(11) NOT NULL AUTO_INCREMENT COMMENT '标识',
   `sid` VARCHAR(200) NULL DEFAULT NULL COMMENT '证件号码',
+  `type` CHAR(1) NULL,
   `name` VARCHAR(45) NOT NULL,
   `dob` DATE NULL DEFAULT NULL,
   `status` VARCHAR(45) NULL DEFAULT NULL,
-  `contact_id` VARCHAR(45) NULL DEFAULT NULL,
   `province` VARCHAR(45) NULL DEFAULT NULL,
   `city` VARCHAR(45) NULL DEFAULT NULL,
   `area` VARCHAR(45) NULL DEFAULT NULL,
+  `town` VARCHAR(45) NULL,
+  `villiage` VARCHAR(45) NULL,
   `postcode` VARCHAR(45) NULL DEFAULT NULL,
   `address` VARCHAR(200) NULL DEFAULT NULL,
   `mobile` VARCHAR(45) NULL DEFAULT NULL,
@@ -48,6 +53,7 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`users` (
   `webid1` VARCHAR(100) NULL DEFAULT NULL,
   `webid2` VARCHAR(100) NULL DEFAULT NULL,
   `webid3` VARCHAR(100) NULL DEFAULT NULL,
+  `contact_note` VARCHAR(100) NULL DEFAULT NULL,
   `nickname` VARCHAR(200) NULL DEFAULT NULL,
   `remark` VARCHAR(500) NULL DEFAULT NULL,
   `aboutme` VARCHAR(500) NULL DEFAULT NULL,
@@ -95,12 +101,12 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`bankacts` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `user_id` INT(11) NULL DEFAULT NULL,
   `type` CHAR(1) NULL DEFAULT NULL,
-  `account` VARCHAR(45) NULL DEFAULT NULL,
+  `account` VARCHAR(100) NULL DEFAULT NULL,
   `account_name` VARCHAR(100) NULL DEFAULT NULL,
   `account_remark` VARCHAR(100) NULL DEFAULT NULL,
-  `address` VARCHAR(45) NULL DEFAULT NULL,
-  `bank` VARCHAR(45) NULL DEFAULT NULL,
-  `school_id` VARCHAR(45) NULL DEFAULT NULL,
+  `address` VARCHAR(120) NULL DEFAULT NULL,
+  `bank` VARCHAR(100) NULL DEFAULT NULL,
+  `school_id` INT NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `bankact_user_id`
     FOREIGN KEY (`user_id`)
@@ -125,9 +131,9 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`contacts` (
   `user_id` INT(11) NULL DEFAULT NULL,
   `school_id` INT(11) NULL DEFAULT NULL,
   `phone` VARCHAR(45) NULL DEFAULT NULL,
-  `contact` VARCHAR(45) NULL DEFAULT NULL,
+  `contact` VARCHAR(100) NULL DEFAULT NULL,
   `type` VARCHAR(45) NULL DEFAULT NULL COMMENT '描述与联系人关系 如 本人， 父亲，母亲，校长，姐姐',
-  `remark` VARCHAR(45) NULL DEFAULT NULL,
+  `remark` VARCHAR(120) NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
@@ -150,12 +156,12 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`schools` (
   `city` VARCHAR(45) NULL DEFAULT NULL,
   `area` VARCHAR(45) NULL DEFAULT NULL,
   `main_contact` VARCHAR(100) NULL DEFAULT NULL,
-  `other_contact` VARCHAR(45) NULL DEFAULT NULL,
+  `other_contact` VARCHAR(100) NULL DEFAULT NULL,
   `cooperate` BIT(1) NOT NULL,
-  `facilities` VARCHAR(100) NULL DEFAULT NULL COMMENT '设施',
-  `size` VARCHAR(100) NULL DEFAULT NULL COMMENT '规模',
+  `facilities` VARCHAR(500) NULL DEFAULT NULL COMMENT '设施',
+  `size` VARCHAR(500) NULL DEFAULT NULL COMMENT '规模',
   `comments` VARCHAR(500) NULL DEFAULT NULL COMMENT '评价',
-  `feedback_note` VARCHAR(50) NULL DEFAULT NULL,
+  `feedback_note` VARCHAR(200) NULL DEFAULT NULL,
   `student_contact` VARCHAR(100) NULL DEFAULT NULL COMMENT '学生代表联系信息',
   PRIMARY KEY (`id`, `name`))
 ENGINE = InnoDB
@@ -205,6 +211,8 @@ CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`donations` (
   `student_class` VARCHAR(45) NULL DEFAULT NULL,
   `donator_id` INT(11) NOT NULL,
   `status` CHAR(2) NULL DEFAULT NULL,
+  `brief` VARCHAR(100) NULL COMMENT '状态说明 如汇款已到 ， 资料已发\n',
+  `remark` VARCHAR(200) NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `donation_schsch_id`
     FOREIGN KEY (`schoolsch_id`)
@@ -247,7 +255,7 @@ DROP TABLE IF EXISTS `cunxiaoo_houtai`.`feedbacks` ;
 
 CREATE TABLE IF NOT EXISTS `cunxiaoo_houtai`.`feedbacks` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `student_id` INT(11) NULL DEFAULT NULL COMMENT '关于学生的回访或来信',
+  `user_id` INT(11) NULL DEFAULT NULL COMMENT '关于学生的回访或来信',
   `school_id` INT(11) NULL DEFAULT NULL COMMENT '关于学校的反馈记录\n',
   `type` CHAR(1) NULL DEFAULT NULL COMMENT '来信或是回访',
   `context` TEXT NOT NULL,

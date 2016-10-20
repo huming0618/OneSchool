@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			body{
+				padding: 0;
+			}
+			
+			div.#box{
+				height: 100%;
+				width: 600px;
+				margin: auto;
+			}
+			
+			#textbox{
+				margin: auto;
+				width: 520px;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<textarea rows="100" id="textbox"></textarea>
+		</div>
+	</body>
+	<script src="jquery-2.0.3.min.js"></script>
+	<script>
+		$(document).ready(function(e){
+			var idSeed = 0;
+			var $box = $("#box").find("textarea");
+			function processAreaNode(code, parentId){
+				var url = "http://api.dangqian.com/apidiqu2/api.asp?id=" + code + "&callback=?";
+				var $deffered = $.Deferred();
+				parentId = parentId || 0;
+				$.getJSON(url)
+				 .done(function(data){
+				 	var level = data["idengji"];
+				 	var name = data["diming"+level];
+				 	var code = data["idaima"];
+				 	var parent_code = data["daima"+(parseInt(level)-1)] || code;
+				 	var list = data["list"];
+				 	var childrenNodes = [];
+				 	var id = idSeed++;
+				 	
+				 	$.each(list, function(itemId){
+				 		var item = list[itemId]
+				 		console.log(item)
+				 		childrenNodes.push({
+				 			"level": item["idengji"],
+				 			"name": item["diming"],
+				 			"code": item["daima"],
+				 			"parentId": id
+				 		})
+				 	});
+				 	
+				 	var sql = [
+				 	            "INSERT INTO `cunxiaoo_houtai`.`address_dictionary`(",
+				 	            	"`province`,",
+				 	            	"`city`,",
+				 	            	"`area`,",
+				 	            	"`town`,",
+				 	            	"`villiage`,",
+				 	            	"`parent_code`,",
+				 	            	"`code`,",
+				 	            	"`level`) VALUES(",
+									"'" + (data["diming2"] || "") + "'",
+									",'" + (data["diming3"] || "") + "'",
+									",'" + (data["diming4"] || "") + "'",
+									",'" + (data["diming5"] || "") + "'",
+									",'" + (data["diming6"] || "") + "'",
+									",'" + parent_code + "'",
+									",'" + code + "'",
+									"," + level + ");"].join('');
+				 	
+				 	$deffered.resolve({
+				 		sql:sql, 
+				 		children: childrenNodes,
+				 		level: level,
+				 		id: id});
+				 })
+				 .fail(function(){
+				 	console.log('Error','Fail');
+				 	$deffered.reject();
+				 })
+				 return $deffered.promise();
+			}
+			
+			var processList = [{"code":"000000000000","parentId":0}];
+			
+			function process(){
+				try{
+					var len = processList.length;
+					if(len == 0)
+						return;
+					
+					var node = processList.shift();
+					processAreaNode(node.code, node.parentId)
+					.done(function(result){
+						//add to the process list
+						Array.prototype.unshift.apply(processList, result.children)
+						//put the sql
+						$box.val($box.val() + "\n\r" + result.sql);
+						setTimeout(process, 200);
+					})
+					.fail(function(){
+						console.log("After Fail");
+						process();
+					})
+				}
+				catch(e){
+					console.log(e);
+					console.log("when", processList);
+				}
+				finally{
+				}
+			}
+			
+			process();
+		 })
+	</script>
+</html>
